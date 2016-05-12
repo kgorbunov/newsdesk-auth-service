@@ -84,4 +84,5 @@ func handler(w http.ResponseWriter, r *http.Request){
 func main() {
 	http.HandleFunc("/", handler)
 	http.ListenAndServe("192.168.9.10:8001", nil)
+	t := 2
 }
